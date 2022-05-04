@@ -94,7 +94,7 @@ function login(e) {
         loggedInStatusStr = JSON.stringify(loggedInStatusObj);
         localStorage.setItem("last-logged-in", loggedInStatus);
         localStorage.setItem("last-logged-in-user", fullName);
-        window.location.href = "login.html";
+        window.location.href = "index.html";
       } else if (
         usernameField != "" &&
         usernameField == loginVar[i].userName &&
