@@ -6,7 +6,7 @@
     --main-fg-color: rgb(168, 5, 209);
     --second-text-color: #8954ab;
     --main-text-color: purple;
-    --placeholder-text-color: #9e00ec; /* this is only use for the palceholder text icon */
+    --placeholder-text-color: #9e00ec; /* this is only use for the placeholder text icon */
     --main-border-radius: 4px;
     --main-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
       0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);

@@ -4,7 +4,8 @@ let selectedSection;
 let selectedIndex;
 let sectionsList = document.querySelectorAll(".box-header");
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { 
+    //The DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
   clearSearchInput();
   getSite();
   getSections();
@@ -48,7 +49,7 @@ document
     clearValues();
   });
 
-// Apply event listener to FAB for open modal
+// Apply event listener to edit button to open modal to edit categories
 document.querySelector("#modal-trigger").addEventListener("click", () => {
   document.querySelector(".modal-overlay").style.display = "block"; // show modal
 
@@ -226,7 +227,7 @@ function reprintSections() {
 /* Interactive DOM functions for effects and animations */
 
 // Interact with DOM to show salute message and date
-function setDate() {
+function setDate() { 
   // Initialize javascript date object
   let dateObject = new Date();
 
@@ -310,7 +311,7 @@ function animateFloatLabel() {
   });
 }
 
-function rippleEffect() {
+function rippleEffect() { //ripple gives a button pressing effect.
   let rippleElements = document.querySelectorAll(".ripple"); // Search for ripple classes applied
   rippleElements.forEach((e) => (e.onmousedown = null)); // Remove every listener if already has been applied
 
